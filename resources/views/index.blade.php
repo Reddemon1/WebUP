@@ -15,6 +15,7 @@
 <div class="footer">
     <input type="hidden">
     <input type="hidden">
+    <input type="hidden">
     <input type="hidden" name="" id="">
 </div>
 @endsection
