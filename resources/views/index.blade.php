@@ -13,6 +13,7 @@
     <button class="print">Ayo Print !</button>
 </div>
 <div class="footer">
+    <input type="hidden">
     <input type="hidden" name="" id="">
 </div>
 @endsection
