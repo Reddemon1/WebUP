@@ -1,6 +1,40 @@
 *{
     font-family: 'Quicksand', sans-serif;
 }
+.bo-login{
+    background: url('../image/Login.png');
+    background-size: cover;
+}
+.form-login{
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.btn-form-submit{
+    width: 322px;
+    height: 40px;
+    background-color: #1D87E4;
+    color:white;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none
+}
+.container{
+    background : #E9E9E9;
+    width: 400px;
+    height: 370px;
+    border-radius: 14px;
+    transform: translateX(65%);
+    margin-top: 100px;
+}
+.cont-login{
+    margin-top: 30px;
+    margin-left: 27px;
+}
 .btn-login{
     padding: 3px 30px 3px 30px;
     font-size: 20px;
@@ -19,6 +53,12 @@
     background-size: cover;
     width: 100%;
     height: 600px;
+}
+.layer1home{
+    background: url('../image/layer1home.png');
+    background-size: cover;
+    width: 100%;
+    height: 450px;
 }
 .layer-2{
     background: url('../image/layer2.png');

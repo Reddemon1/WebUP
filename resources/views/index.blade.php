@@ -13,5 +13,6 @@
     <button class="print">Ayo Print !</button>
 </div>
 <div class="footer">
+    
 </div>
 @endsection

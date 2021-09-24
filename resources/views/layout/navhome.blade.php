@@ -40,7 +40,7 @@
                             <a class="nav-link" href="#"><img width="24px" height="24px" src="image/bi_chat-dots-fill.png" alt=""></a>
                         </li>
                     </ul>
-                    <button class="btn-login" onclick="location.href='/login'">Masuk</button>
+                    <h5 style="font-size: 15px;margin-right:20px;margin-top:5px ">Welcome, {{ $model->name }}</h5>
                 </div>
                 </div>
             </nav>
