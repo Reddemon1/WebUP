@@ -40,7 +40,16 @@
                             <a class="nav-link" href="#"><img width="24px" height="24px" src="image/bi_chat-dots-fill.png" alt=""></a>
                         </li>
                     </ul>
-                    <h5 style="font-size: 15px;margin-right:20px;margin-top:5px ">Welcome, {{ $model->name }}</h5>
+                    <div class="dropdown" style="margin-right: 40px ">
+                        <button style="background:transparent;" class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img width="35px" height="35px" style="border-radius: 50%" src="{{ asset('storage/'.$model->image) }}" alt=""> <span style="color: #FFC600;margin-top:50px;margin-left: 10px">{{ $model->name }}</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Profile</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="/Logout" style="color: #C31814">Log Out</a></li>
+                        </ul>
+                      </div>
                 </div>
                 </div>
             </nav>

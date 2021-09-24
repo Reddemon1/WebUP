@@ -18,6 +18,7 @@
         <div class="container">
             <h1 style="padding-top:50px;font-weight:600;color: #FFC600; text-align: center">Login</h1>
         <form action="{{ route('login') }}" class="cont-login">
+            @csrf
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">@</span>
                 <input type="text" name="email" id="email" class="form-login" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1">

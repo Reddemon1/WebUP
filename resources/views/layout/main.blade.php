@@ -14,7 +14,7 @@
         <title>Hello, world!</title>
     </head>
     <body>
-            <nav style="height:60px;" class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav style="height:60px;" class="navbar navbar-expand-lg navbar-light bg-light nav">
                 <div class="container-fluid" style="margin-left: 100px">
                 <a style="margin-top:0" class="navbar-brand"  href="#"><img width="42" height="42" src="image/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                             <a class="nav-link" href="#"><img width="24px" height="24px" src="image/bi_chat-dots-fill.png" alt=""></a>
                         </li>
                     </ul>
-                    <button class="btn-login" onclick="location.href='/login'">Masuk</button>
+                    <button class="btn-login" onclick="location.href='/Login'">Masuk</button>
                 </div>
                 </div>
             </nav>
