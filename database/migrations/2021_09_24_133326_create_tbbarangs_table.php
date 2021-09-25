@@ -17,6 +17,7 @@ class CreateTbbarangsTable extends Migration
             $table->id();
             $table->string('namabarang',1000);
             $table->string('stock',100);
+            $table->string('harga',100);
             $table->string('img_barang',1000);
             $table->timestamps();
         });
