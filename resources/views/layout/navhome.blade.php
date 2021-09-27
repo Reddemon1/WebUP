@@ -1,5 +1,5 @@
     <!doctype html>
-    <html lang="en">
+    <html lang="en" >
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -14,7 +14,8 @@
         <title>Hello, world!</title>
     </head>
     <body>
-            <nav style="height:60px;" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="fade" style="background: black; background-size:cover;width:100%;height:1080px;display:inline"></div>
+            <nav style="height:60px;" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
                 <div class="container-fluid" style="margin-left: 100px">
                 <a style="margin-top:0" class="navbar-brand"  href="#"><img width="42" height="42" src="image/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
